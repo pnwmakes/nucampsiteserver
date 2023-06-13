@@ -1,6 +1,7 @@
 const express = require('express');
 const partnerRouter = express.Router();
 const Partner = require('../models/partner');
+
 partnerRouter
     .route('/')
     .get((req, res, next) => {
